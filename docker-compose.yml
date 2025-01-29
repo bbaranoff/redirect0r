@@ -1,0 +1,11 @@
+#
+# Copyright 2024 Bastien Baranoff
+#
+version: '3'
+
+services:
+  example:
+    build:
+        context: .
+        args:
+            DOCKER_BUILDKIT: 1
